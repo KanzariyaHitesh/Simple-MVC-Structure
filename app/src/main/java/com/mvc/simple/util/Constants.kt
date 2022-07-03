@@ -2,7 +2,8 @@ package com.mvc.simple.util
 
 object Constants {
 
-    var BASE_URL = "https://login-panel.elsnerdev.com/"
+    var Sample = "els"
+    var BASE_URL = "https://login-panel.nerdev.com/"
 
     const val prefName: String = "mvc_customer"
     const val labelPrefName: String = "mvc_customer_label"
