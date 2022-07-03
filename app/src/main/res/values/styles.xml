@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dividerColor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="MaterialDialogSheet" parent="@android:style/Theme.Dialog">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="behavior_peekHeight">@dimen/_150sdp</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <style name="_seekbarStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <!--<item name="colorControlNormal">#00b0ff</item>-->
+    </style>
+
+    <!-- Regular Font -->
+
+    <style name="lbl12BlackRegular">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+    </style>
+
+    <!-- Medium Font -->
+
+    <style name="lbl18BlackMedium">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/sf_pro_display_medium</item>
+    </style>
+
+
+    <!--Bold Font-->
+
+    <style name="lbl18BlackBold">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="btnBlue">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:background">@drawable/btn_color_accent_solid</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/_12sdp</item>
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+    </style>
+
+</resources>
